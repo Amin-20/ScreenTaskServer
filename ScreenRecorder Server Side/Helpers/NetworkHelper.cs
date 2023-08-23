@@ -34,7 +34,7 @@ namespace ScreenRecorder_Server_Side.Helpers
                     TcpClient = client,
                 };
                 Clients.Add(newClient);
-                Task.Delay(1000);
+                Task.Delay(1);
             }
         }
     }
